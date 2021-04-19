@@ -1,0 +1,47 @@
+#header{
+      background-image: url(/img1.jpg);
+      height:490px;
+      padding-top: 8%;  
+    text-align: center;
+    color: white;
+    font-size: smaller
+}
+
+
+body{
+    text-align: center;
+    font-size: x-small;
+}
+.services{
+    background-image: url(/img2.jpg);
+     height:170px;
+    text-align: center;
+    color: white;
+    font-size: small;
+    padding-top: 7%;
+}
+
+#img1{
+    text-align: left;
+    height:8px;
+
+}
+#imge2{
+    text-align: center;
+    height:5px;
+}
+#image3{
+    text-align: right;
+    height:8px;
+}
+.work{
+    text-align:center
+    hei
+}
+.work4{
+    height:170px;
+
+}
+#port{
+    padding-top: 7%;
+}
