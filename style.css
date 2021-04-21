@@ -59,9 +59,9 @@ body{
     justify-content: center;
 }
 .img-container{
-    width:200px;
+    width:300.5px;
     height:200px;
-    margin:2px;
+    margin:5px;
     background-size: cover;
     padding:8%;
 }
@@ -70,7 +70,7 @@ body{
 }
 .project-name{
     display:none;
-    border:1px solid white;
+    border:1px; solid  white;
     width:200px;
     height:200px;
     background-color: rgba(255, 255, 255, 0.5);
@@ -78,7 +78,7 @@ body{
 }
 #form{
     background-image: url(/img3.jpg);
-    height:170px;
+    height:850px;
     text-align: center;
     color: white;
     font-size: small;
@@ -87,4 +87,5 @@ body{
 #mssg{
     height:70px;
     width:70;
+    padding-inline-start: 4%;
 }
