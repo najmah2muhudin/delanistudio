@@ -59,11 +59,11 @@ body{
     justify-content: center;
 }
 .img-container{
-    width:250px;
-    height:100px;
-    margin:5px;
+    width:200px;
+    height:200px;
+    margin:2px;
     background-size: cover;
-    padding: 10px;
+    padding:8%;
 }
 .img-container:hover .project-name{
     display: block;
