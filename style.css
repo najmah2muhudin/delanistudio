@@ -13,7 +13,7 @@ body{
     font-size: x-small;
 }
 .services{
-    background-image: url(/img2.jpg);
+    background-image: url("./img2.jpg");
      height:170px;
     text-align: center;
     color: white;
