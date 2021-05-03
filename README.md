@@ -1,5 +1,5 @@
 # My-Project
-My project is a web page for delani stuido it displays the  services they provide and how efficient their work is
+My project is a website for delani stuido it displays the  services they provide and how efficient their work is
 ## Prerequisites
 Basic Git knowledge, including an installed version of Git.
 ##### Technologies Used
