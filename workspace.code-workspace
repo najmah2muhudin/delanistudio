@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../calc"
+		},
+		{
+			"path": "../calculator"
+		},
+		{
+			"path": "."
+		}
+	]
+}
