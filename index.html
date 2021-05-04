@@ -12,23 +12,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap" rel="stylesheet">
 </head> 
 <body>  
-    <div class="container">
+    <div class="container-fluid">
     <header> 
         <div id="header">
-         <img src="./logo.png" alt="">
-            <h5>WELCOME TO<br>
-                DELANI STUDIO<br>
-                <p>AMAZING PEOPLE CREATING AMAZING DESIGN IN AN AMAZING ENVIRONMENT</p>
-    
-            </h5>
+         <img src="./logo.png" alt=""><br><br>
+            <h5>WELCOME</h5> <br>
+            <h5>TO DELANI STUDIO</h5><br>
+            <p>AMAZING PEOPLE CREATING AMAZING DESIGN IN AN AMAZING ENVIRONMENT</p>
+            <div class="mouse-click">
+              <a href="#about-us"><img src="./mouse_click.png" alt="Mouse-click"></a>
+            </div>
+            
         </div>
     </header>
-    <h6>ABOUT US</h6>
-    <P>When you work with us you are part of a team of committed collaborators.All aspects of our software development process are integrated,interactive and agile<br>
-    Our approach unifies design, development and product managment to creat exceptional products<br>
-    We start each project by understanding your business goals, the user's needs and the product requirment<br>
-    Then we help translate them into effective and elegant solutions
- </P>
+    <div class="about-us">
+        <h6 id = "about-us">ABOUT US</h6>
+        <P>When you work with us you are part of a team of committed collaborators.All aspects of our software development process are integrated,interactive and agile<br>
+        Our approach unifies design, development and product managment to creat exceptional products<br>
+        We start each project by understanding your business goals, the user's needs and the product requirment<br>
+        Then we help translate them into effective and elegant solutions
+        </P>
+    </div>
  <div class="services">
         <h6>SERVICES</h6>
      <p>Before we sign a contract or write a line of code our team will spend the necesarry time needed to understand your product vision<br>
@@ -36,7 +40,7 @@
         based on your requirments we can provide a complete offering or pieces you need
     </p>
     </div>
- </div>
+ 
  <h6>WHAT WE DO</h6>
  <div class="row">
      <div class="col-md-4">
@@ -128,7 +132,6 @@
            </div>
        </div>
                 
-       </div>
        <div class="container">
        <div id="form">
            <input type="text" id="text" placeholder="name">
@@ -136,7 +139,10 @@
            <input type ="text" id="mssg" placeholder="enter message">
        </div>
     </div>
-    </div>
+</div>
+    
+    
+    
     <script
   src="https://code.jquery.com/jquery-3.1.1.js"
   integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="

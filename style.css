@@ -1,10 +1,26 @@
+html {
+     
+    
+}
+.container-fluid{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden; 
+    
+}
+
 #header{
       background-image: url("./img1.jpg");
-      height:490px;
-      padding-top: 8%;  
+      background-size: cover;
+      /* height:490px; */
+      padding-top: 16%;  
+      background-position: center;
     text-align: center;
     color: white;
-    font-size: smaller
+    font-size: large;
+    padding-bottom: 7%;
+    
 }
 
 
@@ -88,4 +104,8 @@ body{
     height:70px;
     width:70;
     padding-inline-start: 4%;
+}
+.mouse-click{
+    padding-bottom: 0%;
+    margin-top: 9%;
 }
