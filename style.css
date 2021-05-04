@@ -32,25 +32,26 @@ body{
     background-image: url("./img2.jpg");
      height:170px;
     text-align: center;
-    color: white;
-    font-size: small;
-    padding-top: 7%;
+    color: #ffffff;
+    font-size: medium;
+    padding-top: 2%; 
 }
 
 #img1{
     text-align: left;
-    font-size: smaller;
+    font-size: medium;
 
     
    
 }
 #imge2{
     text-align: center;
+    font-size: medium;
     
 }
 #image3{
     align-items: right;
-    
+    font-size: medium;
 }
 
      
@@ -70,12 +71,13 @@ body{
 #port{
     display: flex;
     flex-wrap:wrap;
-    margin: 1rem;
+    margin-left: 8%;
     align-items: center;
     justify-content: center;
+    margin-right: 8%;
 }
 .img-container{
-    width:300.5px;
+    width:200px;
     height:200px;
     margin:5px;
     background-size: cover;
@@ -90,15 +92,18 @@ body{
     width:200px;
     height:200px;
     background-color: rgba(255, 255, 255, 0.5);
+    left: ;
     
 }
 #form{
     background-image: url("./img3.jpg");
-    height:850px;
+    height:220px;
     text-align: center;
     color: white;
     font-size: small;
     padding-top: 7%;
+    background-size: cover;
+    background-position: center;
 }
 #mssg{
     height:70px;
@@ -115,4 +120,24 @@ body{
 }
 #about-us{
     font-size: 28px;
+}
+.services-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+}
+.wd{
+    font-weight: bold;
+    font-size: 20px;
+}
+.wds{
+    font-size: 26px;
+    font-weight: bold;
+}
+.p{
+    font-weight: bold;
+    font-size: 26px;
+}
+#btn{
+    background-color: black;
+    color: white;
 }
